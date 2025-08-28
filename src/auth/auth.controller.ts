@@ -7,7 +7,7 @@ import {
   UseGuards,
 } from '@nestjs/common';
 
-import type { SignUpDTO, SingInDTO } from './dtos/auth';
+import { SignUpDTO, SingInDTO } from './dtos/auth';
 import { AuthService } from './auth.service';
 import { AuthGuard } from './auth.guard';
 
